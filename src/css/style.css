@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+.Content {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  top: 30px;
+  padding-top: 10px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.Container {
+  height: 400px;
+  width: 40%;
+  box-shadow: 2px 2px 3px 3px #e0ebeb;
+}
+.Top {
+  height: 40%;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+.Footer {
+  height: 60%;
+  display: flex;
+  padding: 15px 10px 10px 10px;
+  background-color: #00b3b3;
+}
+.right {
+  width: 50%;
+  padding: 10px 10px;
+  background-color: #00b3b3;
+  color: white;
+}
+.left {
+  width: 50%;
+  padding: 10px 10px;
+  background-color: #00cccc;
+  color: white;
+  font-size: 14px;
+  justify-content: space-between;
+}
+.join {
+  color: #47d1d1;
+}
+.day {
+  color: #00e600;
+}
+.gain {
+  color: #94b8b8;
+  font-size: 14px;
+}
+.Dollars {
+  font-size: 25px;
+}
+.Month {
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+.signup {
+  padding-top: 30px;
+}
+button {
+  background-color: #00e600;
+  width: 200px;
+  height: 30px;
+  color: white;
+}
+.per {
+  padding-bottom: 5px;
+}
